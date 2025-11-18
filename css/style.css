@@ -45,6 +45,10 @@ body{
     border-radius: 15px;
     padding: 20px;
 }
+.container-pagamento {
+    margin: 80px auto;
+    border-radius: 15px;
+}
 .texto-destaque {
     color: var(--cor-principal2);
     font-weight: bold;
@@ -52,14 +56,15 @@ body{
 .secao-pagamento {
     background-color: rgb(219, 219, 219);
     padding-top: 10px;
-    border-radius: 0px 0px 0px 15px;
+    border-radius: 15px 0px 0px 15px;
 }
 .met-pagamento {
     background-color: white;
     border-radius: 20px;
-    border: 1px black solid;
+    border: 2px black solid;
     padding: 20px 5px 5px 25px;
     margin-bottom: 40px;
+    font-weight: 600;
 }
 .row{
     margin-bottom: 20px;
@@ -109,4 +114,7 @@ a:hover {
 }
 .col-12 {
     margin-top: 20px;
+}
+.col-lg-4 {
+    padding: 20px;
 }

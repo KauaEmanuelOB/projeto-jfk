@@ -19,7 +19,7 @@ body{
     border-left: var(--cor-principal2) 3px solid;
 }
 .navbar-brand {
-    max-width: 95px;
+    max-width: 90px;
 }
 .logo {
     border-radius: 15px;
